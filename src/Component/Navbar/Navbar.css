@@ -3,11 +3,17 @@
     width:120px;
     border-radius:5px
 }
+.bg{
+    background-color: green;
+}
 .menu li{
     font-weight: bold;
     font-size: 20px;
 }
 .menu li a:hover{
-    background-color: green;
+    background-color: orangered;
     border-radius: 5px;
+}
+.login-btn{
+    background-color: orangered;
 }

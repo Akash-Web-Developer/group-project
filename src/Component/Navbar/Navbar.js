@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-light bg">
                 <a class="navbar-brand" href="#">
                     <img class="img-fluid logo" src={logo} alt="" />
                 </a>
@@ -24,10 +24,12 @@ const Navbar = () => {
                         <li class="nav-item active">
                             <a style={{color: 'white'}} class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
                         </li>
+                        <button type="button" class="btn btn login-btn">Log In</button>
+
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        <button class="btn btn-outline-dark login-btn my-2 my-sm-0" type="submit"><h6>Search</h6></button>
                     </form>
                 </div>
             </nav>
